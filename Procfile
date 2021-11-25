@@ -1,1 +1,1 @@
-worker: node jano.js
+worker: node Hama.js
