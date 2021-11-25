@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "main": "jano.js",
+  "main": "Hama.js",
   "scripts": {
     "start": "node jano.js"
   },
