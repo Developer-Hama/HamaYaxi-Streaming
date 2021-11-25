@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
-const jano = new Discord.Client();
+const Hama = new Discord.Client();
 //////// playing or dnd  streaming ////////
-jano.on("ready", () => {
-  console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+Hama.on("ready", () => {
+  console.log(Online In Servers);
+  let statuses = [JUST ALLAH];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
@@ -13,9 +13,10 @@ jano.on("ready", () => {
   }, 2000);
 });
 ///////////////////////
-jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+Hama.on("ready", () => {
+  var join = Hama.channels.get(""); /// id voice
   if (join) join.join();
 });
 //////////////// tokn lera da bne
-jano.login("");
+
+Hama.login ();
