@@ -2,7 +2,7 @@
   "version": "2.1.0",
   "main": "Hama.js",
   "scripts": {
-    "start": "node jano.js"
+    "start": "node hama.js"
   },
   "dependencies": {
     "discord.js": "11.4.2",
